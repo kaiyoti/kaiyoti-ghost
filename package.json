@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "heroku-self-ping": "~1.1.1",    
-    "ghost": "0.6.4",
+    "ghost": "0.11.x",
     "pg": "latest",
-    "cloudinary": "1.2.x",
-    "bluebird": "2.9.x"
+    "cloudinary": "1.9.x",
+    "bluebird": "3.5.x"
   },
   "engines": {
     "node": "~0.12.0"
