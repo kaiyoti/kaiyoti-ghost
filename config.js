@@ -7,15 +7,14 @@ config = {
 
   // Production (Heroku)
   production: {
-    url: process.env.HEROKU_URL,
+    url: 'http://www.krystleli.ca',
     mail: {
       transport: 'SMTP',
-      host: 'smtp.mandrillapp.com',
       options: {
-        service: 'Mandrill',
+        service: 'Gmail',
         auth: {
-          user: process.env.MANDRILL_USERNAME,
-          pass: process.env.MANDRILL_APIKEY
+          user: process.env.SMTP_USERNAME,
+          pass: process.env.SMTP_PASSWORD
         }
       }
     },
