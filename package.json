@@ -10,7 +10,7 @@
     "bluebird": "3.5.x"
   },
   "engines": {
-    "node": "~0.12.0"
+    "node": "^6.9.0"
   },
   "scripts": {
     "start": "node server.js"
